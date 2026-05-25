@@ -1,0 +1,51 @@
+{
+    "Eduarda": {
+        "email": "lopesvieiraedaurda@gmail.com",
+        "senha": "ef8e2f531ed25213c8f2ce8395899fc748fcfd1f1523b7a57ae46f4d0115ea2e",
+        "perfil_tdah": "combinado",
+        "preferencias": {
+            "estilo_instrucao": "direto"
+        },
+        "tarefas_diarias": [],
+        "tarefas_educacionais": []
+    },
+    "Luciana": {
+        "email": "Luciana@gmail.com",
+        "senha": "4ded4b4e02a2803903f685bf1c3067adb30847f8df7b15b0b9a0ad68bb673dc9",
+        "perfil_tdah": "combinado",
+        "preferencias": {
+            "estilo_instrucao": "detalhado"
+        },
+        "tarefas_diarias": [],
+        "tarefas_educacionais": [
+            {
+                "titulo": "Aprender Estequiometria",
+                "prioridade": "alta",
+                "prazo": "em processo",
+                "concluida": false,
+                "passos": [
+                    {
+                        "texto": "Organize o espaço rapidamente.",
+                        "concluido": false
+                    },
+                    {
+                        "texto": "Execute a primeira metade por 15 minutos.",
+                        "concluido": false
+                    },
+                    {
+                        "texto": "Pausa de 5 minutos.",
+                        "concluido": false
+                    },
+                    {
+                        "texto": "Finalize a segunda metade.",
+                        "concluido": false
+                    },
+                    {
+                        "texto": "Revise o resultado.",
+                        "concluido": false
+                    }
+                ]
+            }
+        ]
+    }
+}
