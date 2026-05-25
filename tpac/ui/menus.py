@@ -8,7 +8,7 @@ def criar_usuario_menu(dados: dict):
     nome = input("Digite o nome do usuário: ").strip()
     email = input("Digite o email do usuário: ").strip()
     senha = input("Digite o senha do usuário: ").strip()
-    Classificação = input("Digite a classifição de TDAH do usuário: ").strip()
+    classificao = input("Digite a classifição de TDAH do usuário: ").strip()
     if not nome or nome in dados:
         input("\nNome inválido ou já existente. Pressione Enter.")
         return
@@ -19,7 +19,7 @@ def criar_usuario_menu(dados: dict):
     pref = input("Opção: ").strip()
     estilo = "direto" if pref == "1" else "detalhado"
 
-    dados[nome,classifição,email] = {
+    dados[nome,classificao,email] = {
         "preferencias": {"estilo_instrucao": estilo},
         "tarefas_diarias": [],
         "tarefas_educacionais": []
