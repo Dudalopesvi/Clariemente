@@ -1,0 +1,15 @@
+{
+    "Matheus": {
+        "preferencias": {
+            "estilo_instrucao": "direto"
+        },
+        "tarefas_diarias": [
+            {
+                "titulo": "Arrumar a Casa",
+                "concluida": false,
+                "passos": []
+            }
+        ],
+        "tarefas_educacionais": []
+    }
+}
